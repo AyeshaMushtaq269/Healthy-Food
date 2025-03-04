@@ -1,103 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Healthy and Fresh Food</title>
-    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-        <header class="nav">
-            <div class="logo">🍃 Wrapped Green</div>
-            <nav>
-                <a href="#about">About us</a>
-                <a href="#menu">Menu</a>
-                <a href="#contact">Contact</a>
-            </nav>
-        </header>
-        <section class="hero">
-            <div class="hero-text">
-                <h1>Healthy & Fresh <br>Food For You</h1>
-                <p>Created for lovers of healthy, delicious, and non-obvious food.</p>
-                 <button class="btn">Check Menu →</button>
+
+<body class="bg-green-100 font-sans">
+    <header class="flex justify-between items-center p-4 bg-white shadow-md">
+        <div class="text-lg font-bold">🍃 Wrapped Green</div>
+        <nav class="space-x-6">
+            <a href="#about" class="text-black font-semibold">About us</a>
+            <a href="#menu" class="text-black font-semibold">Menu</a>
+            <a href="#contact" class="text-black font-semibold">Contact</a>
+        </nav>
+    </header>
+
+    <section class="flex flex-col md:flex-row items-center justify-between p-8">
+        <div class="max-w-lg">
+            <h1 class="text-5xl font-bold text-gray-800">Healthy & Fresh <br>Food For You</h1>
+            <p class="text-lg text-gray-600 mt-4">Created for lovers of healthy, delicious, and non-obvious food.</p>
+            <button class="mt-4 bg-orange-500 text-white px-6 py-2 rounded shadow hover:bg-orange-600">Check Menu
+                →</button>
+        </div>
+        <div class="flex justify-center mt-6 md:mt-0">
+            <img src="image1.png" alt="Salad Bowl" class="w-3xl md:w-2xl rounded-full">
+        </div>
+    </section>
+
+    <section id="about" class="grid grid-cols-1 md:grid-cols-2 gap-8 p-8">
+        <div>
+            <img src="image2.png" alt="Fresh Ingredients" class="w-full rounded-lg">
+        </div>
+        <div>
+            <h2 class="text-3xl font-bold text-gray-800">Few words about us</h2>
+            <p class="text-lg text-gray-600 mt-4">We are not an ordinary food truck. We create a place overflowing with
+                positive energy that expresses important values.</p>
+            <a href="#"
+                class="mt-4 inline-block bg-orange-500 text-white px-6 py-2 rounded shadow hover:bg-orange-600">Learn
+                More →</a>
+        </div>
+    </section>
+
+    <section id="menu" class="text-center p-8">
+        <h2 class="text-3xl font-bold text-gray-800">Explore Our Best Food</h2>
+        <p class="text-lg text-gray-600">Below you can see our best-selling meals!</p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mt-6">
+            <div class="bg-white rounded-lg shadow p-4 text-center">
+                <img src="image3.jpg" alt="Burger" class="w-full h-48 object-cover rounded-lg">
+                <h3 class="text-xl font-bold mt-4">Mighty Burger</h3>
+                <p class="text-gray-600">$8 - Served with fries and drink</p>
             </div>
-            <div class="image-container">
-            
-                <img src="image1.png" alt="Salad Bowl">
-                </div>
-        
-        
-        </section>
-        <section id="about" class="about">
-            <div class="about-image">
-                <img src="image2.png" alt="Fresh Ingredients">
+            <div class="bg-white rounded-lg shadow p-4 text-center">
+                <img src="image4.jpg" alt="Salad" class="w-full h-48 object-cover rounded-lg">
+                <h3 class="text-xl font-bold mt-4">Chickpea's Salad</h3>
+                <p class="text-gray-600">$4 - Served with fresh greens</p>
             </div>
-            <div class="about-text">
-                <h2>Few words about us</h2>
-                <p>We are not an ordinary food truck. We create a place overflowing with positive energy that expresses important values.</p>
-                <a href="#" class="btn">Learn More →</a>
-            </div>
-        </section>
-        <section id="menu" class="menu">
-            <h2>Explore Our Best Food</h2>
-            <p>Below you can see our best-selling meals!</p>
-            <div class="menu-items">
-                <div class="item">
-                    <img src="image3.jpg" alt="Burger">
-                    <h3>Mighty Burger</h3>
-                    <p>$8 - Served with fries and drink</p>
-                </div>
-                <div class="item">
-                    <img src="image4.jpg" alt="Salad">
-                    <h3>Chickpea's Salad</h3>
-                    <p>$4 - Served with fresh greens</p>
-                </div>
-                <div class="item">
-                    <img src="image5.jpg" alt="Wrap">
-                    <h3>Chickpea's Wrap</h3>
-                    <p>$3 - Served with a side sauce</p>
-                </div>
-            </div>
-        </section>
-        <section class="gallery">
-            <h2>Good Food = Happy Clients</h2>
-            <div class="gallery-grid">
-                <img src="image6.jpg" alt="Happy Clients 1">
-                <img src="image7.jpg" alt="Happy Clients 2">
-                <img src="image8.jpg" alt="Happy Clients 3">
-                <img src="image9.jpg" alt="Happy Clients 4">
-                <img src="image10.png" alt="Happy Clients 5">
-                <img src="image5.jpg" alt="Happy Clients 6">
-            </div>
-        </section>
-        <div class="contact">
-            <div class="info-card">
-                <h3>🕒</h3>
-                <p>Working Hours Today 12 pm - 9 pm</p>
-                
-            </div>
-            <div class="info-card">
-                <h3>📍</h3>
-                <p>Piastowska 4, Cracow</p>
-                <p>Find Us</p>
-            </div>
-            <div class="info-card">
-                <h3>📞</h3>
-                <p>Call Us 503 204 176 </p>
-                
+            <div class="bg-white rounded-lg shadow p-4 text-center">
+                <img src="image5.jpg" alt="Wrap" class="w-full h-48 object-cover rounded-lg">
+                <h3 class="text-xl font-bold mt-4">Chickpea's Wrap</h3>
+                <p class="text-gray-600">$3 - Served with a side sauce</p>
             </div>
         </div>
-        <footer class="footer">
-            <p>© 2025 Wrapped Green. All rights reserved.</p>
-            <div class="social-icons">
-                <a href="#">🌐 Facebook</a>
-                <a href="#">📷 Instagram</a>
-                <a href="#">🐦 Twitter</a>
-            </div>
-        </footer>
-        
-    </body>
-    
-    </html>
+    </section>
+
+    <section class="text-center p-8">
+        <h2 class="text-3xl font-bold text-gray-800">Good Food = Happy Clients</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-6">
+            <img src="image6.jpg" alt="Happy Clients" class="w-full h-48 object-cover rounded-lg">
+            <img src="image7.jpg" alt="Happy Clients" class="w-full h-48 object-cover rounded-lg">
+            <img src="image8.jpg" alt="Happy Clients" class="w-full h-48 object-cover rounded-lg">
+            <img src="image9.jpg" alt="Happy Clients" class="w-full h-48 object-cover rounded-lg">
+            <img src="image10.png" alt="Happy Clients" class="w-full h-48 object-cover rounded-lg">
+            <img src="image5.jpg" alt="Happy Clients" class="w-full h-48 object-cover rounded-lg">
+        </div>
+    </section>
+
+    <section class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 p-8 text-center">
+        <div class="bg-white rounded-lg shadow p-6">
+            <h3 class="text-2xl">🕒</h3>
+            <p>Working Hours Today 12 pm - 9 pm</p>
+        </div>
+        <div class="bg-white rounded-lg shadow p-6">
+            <h3 class="text-2xl">📍</h3>
+            <p>Piastowska 4, Cracow</p>
+            <p>Find Us</p>
+        </div>
+        <div class="bg-white rounded-lg shadow p-6">
+            <h3 class="text-2xl">📞</h3>
+            <p>Call Us 503 204 176</p>
+        </div>
+    </section>
+
+    <footer class="text-center p-6 bg-green-500 text-white">
+        <p>© 2025 Wrapped Green. All rights reserved.</p>
+        <div class="mt-4 space-x-4">
+            <a href="#" class="hover:underline">🌐 Facebook</a>
+            <a href="#" class="hover:underline">📷 Instagram</a>
+            <a href="#" class="hover:underline">🐦 Twitter</a>
+        </div>
+    </footer>
 </body>
+
 </html>
